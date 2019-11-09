@@ -25,9 +25,7 @@ const Quiz = ({ quiz }) => {
   return (
     <Container maxWidth="lg">
       <Box display={"flex"} alignItems={"center"} mb={2}>
-        <CardMedia src={Compass}>
-          <img src={Compass} />
-        </CardMedia>
+        <img src={Compass} alt={"Compensation compass logo"} width="100"/>
 
         <Box ml={2}>
           <Typography variant={"h1"}>Compensation Compass</Typography>
